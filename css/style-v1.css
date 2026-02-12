@@ -1,0 +1,361 @@
+/* Style V1 - Professional & Trust */
+
+:root {
+    --primary-color: #0d2c54;
+    /* Navy Blue */
+    --secondary-color: #3b82f6;
+    /* Lighter Blue */
+    --accent-color: #f59e0b;
+    /* Gold/Amber for specific highlights */
+    --text-color: #333;
+    --light-bg: #f8f9fa;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+
+/* Header V1 */
+.header-v1 .top-bar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+.header-v1 .top-bar a {
+    margin-right: 20px;
+    color: #e2e8f0;
+}
+
+.header-v1 .navbar {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-family: var(--font-display);
+}
+
+.logo span {
+    color: var(--secondary-color);
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-outline {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Hero V1 */
+.hero-v1 {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    background: linear-gradient(to right, #f8f9fa 50%, #fff 50%);
+}
+
+.hero-content {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.hero-v1 .badge {
+    background-color: #e0f2fe;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.hero-v1 h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    font-family: var(--font-display);
+}
+
+.hero-v1 .highlight {
+    color: var(--secondary-color);
+}
+
+.hero-v1 p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #64748b;
+    max-width: 500px;
+}
+
+.hero-btns .btn {
+    margin-right: 15px;
+}
+
+.hero-image {
+    flex: 1;
+    height: 400px;
+    position: relative;
+}
+
+.img-placeholder {
+    width: 100%;
+    height: 100%;
+    background-color: #cbd5e1;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: white;
+}
+
+/* Services V1 */
+.section-title h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-family: var(--font-display);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.service-card {
+    background: white;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-color: var(--secondary-color);
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background-color: #eff6ff;
+    color: var(--secondary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+/* Trust Section */
+.bg-light {
+    background-color: var(--light-bg);
+}
+
+.trust-image {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.img-placeholder-rect {
+    width: 100%;
+    height: 350px;
+    background-color: #94a3b8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.trust-content {
+    flex: 1;
+}
+
+.trust-list {
+    margin: 30px 0;
+}
+
+.trust-list li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.trust-list i {
+    color: var(--secondary-color);
+    margin-right: 15px;
+    font-size: 1.2rem;
+}
+
+/* Testimonials */
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.review-author {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Footer */
+.footer-v1 {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 40px;
+}
+
+.footer-col h3 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.footer-col p,
+.footer-col a {
+    color: #cbd5e1;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-col i {
+    margin-right: 10px;
+    width: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .hero-v1,
+    .grid-3,
+    .grid-2,
+    .footer-grid,
+    .container.flex {
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+
+    .hero-content {
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    /* Simplified mobile toggle not implemented fully yet */
+
+    .header-v1 .top-bar {
+        display: none;
+    }
+
+    .hero-image,
+    .trust-image {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .trust-content {
+        text-align: center;
+    }
+
+    .trust-list li {
+        justify-content: center;
+    }
+}

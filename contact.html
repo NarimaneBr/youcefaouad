@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous | Youcef Aouad Déménagement</title>
+    <meta name="description"
+        content="Demandez votre devis gratuit pour déménagement ou transport. Réponse rapide au 06 52 65 88 29.">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Simple clean style for contact page */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .page-header {
+            background-color: #0f2b46;
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            margin: -40px auto 50px;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+
+        button {
+            background-color: #0ea5e9;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.1rem;
+        }
+
+        button:hover {
+            background-color: #0284c7;
+        }
+
+        .contact-methods {
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .method {
+            margin-bottom: 15px;
+        }
+
+        .method i {
+            color: #0ea5e9;
+            margin-right: 10px;
+        }
+
+        .back-link {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="page-header">
+        <h1>Demander un Devis Gratuit</h1>
+        <p>Réponse sous 24h garantie</p>
+    </header>
+
+    <div class="container">
+        <div class="contact-container">
+            <a href="javascript:history.back()" class="back-link">&larr; Retour à l'accueil</a>
+
+            <form action="#" method="POST">
+                <div class="grid grid-2" style="gap: 20px; grid-template-columns: 1fr 1fr;">
+                    <div class="form-group">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="nom" name="nom" required placeholder="Votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="tel" required placeholder="06...">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="votre@email.com">
+                </div>
+
+                <div class="grid grid-2" style="gap: 20px; grid-template-columns: 1fr 1fr;">
+                    <div class="form-group">
+                        <label for="depart">Ville de départ</label>
+                        <input type="text" id="depart" name="depart" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="arrivee">Ville d'arrivée</label>
+                        <input type="text" id="arrivee" name="arrivee" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Type de service</label>
+                    <select id="service" name="service">
+                        <option value="demenagement">Déménagement Complet</option>
+                        <option value="transport">Transport de Meubles / Colis</option>
+                        <option value="debarras">Débarras / Encombrants</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="details">Message / Détails (Volume, date souhaitée...)</label>
+                    <textarea id="details" name="details" rows="4"
+                        placeholder="Bonjour, je souhaite déménager un T2 de 40m3 le 15 mars..."></textarea>
+                </div>
+
+                <button type="submit">Envoyer ma demande</button>
+            </form>
+
+            <div class="contact-methods">
+                <div class="method">
+                    <i class="fas fa-phone-alt"></i> <strong>06 52 65 88 29</strong>
+                </div>
+                <div class="method">
+                    <i class="fas fa-envelope"></i> moovline59@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

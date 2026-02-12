@@ -1,0 +1,45 @@
+{
+  "client": {
+    "name": "Youcef Aouad",
+    "brand_name": "Youcef Aouad Déménagement",
+    "phone": "06 52 65 88 29",
+    "email": "moovline59@gmail.com",
+    "address": "Villeneuve-d'Ascq (Pont de Bois)",
+    "area": "Lille et alentours",
+    "siret": "82864070600044",
+    "founded_year": "2017",
+    "hours": "7j/7 - 24h/24"
+  },
+  "services": [
+    {
+      "title": "Déménagement Complet",
+      "desc": "Formules adaptées, protection du mobilier, camion 20m³ ou 30m³."
+    },
+    {
+      "title": "Transport & Livraison",
+      "desc": "Livraison de meubles, électroménager, colis encombrants (IKEA, Leboncoin...)."
+    },
+    {
+      "title": "Débarras & Encombrants",
+      "desc": "Enlèvement de déchets, gravats, vieux meubles. Service rapide."
+    }
+  ],
+  "values": [
+    "Sérieux",
+    "Ponctuel",
+    "Soigneux",
+    "Prix abordables"
+  ],
+  "testimonials": [
+    {
+      "author": "Emilie M.",
+      "text": "Top Ponctuelle serviable et à l’écoute je le recommande. Super réactif.",
+      "rating": 5
+    },
+    {
+      "author": "Nouali A.",
+      "text": "Excellent travail je recommande fortement 100 pour 100. Super réactif.",
+      "rating": 5
+    }
+  ]
+}
